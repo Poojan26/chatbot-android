@@ -15,6 +15,8 @@ public class ChatService extends Service {
     private NotificationManager notificationManager;
     private static final String TAG = "ChatService";
     public static final String CMD = "message_command";
+
+    // Services with code
     public static final int CHAT_GENERATE_MSG = 20;
     public static final int CHAT_STOP_SERVICE = 11;
 
